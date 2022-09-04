@@ -1,8 +1,8 @@
-public class bonus100 {
+public class Bonus100 {
     public static void main(String[] args) {
 
         int balance = 100;// исходная сумма на счету
-        int x = 100; // стоимость одного бонусного рубля
+        int value = 100; // стоимость одного бонусного рубля
         int amount = 1200;
         if (amount > 1000) {
             int bonus = amount / x;
