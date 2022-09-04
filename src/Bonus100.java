@@ -5,14 +5,15 @@ public class Bonus100 {
         int value = 100; // стоимость одного бонусного рубля
         int amount = 1200;
         if (amount > 1000) {
-            int bonus = amount / x;
+            int bonus = amount / value;
 
-        System.out.println( "Количество бонусных рублей: " + bonus);
-        int total = amount + balance + bonus;
-        System.out.println("Итоговый баланс: "+ total );}
-
-        else {int total = amount+balance;
-            System.out.println("Итоговый баланс: "+ total );}
+            System.out.println( "Количество бонусных рублей: " + bonus);
+            int total = amount + balance + bonus;
+            System.out.println("Итоговый баланс: " + total);
+        } else {
+            int total = amount + balance;
+            System.out.println("Итоговый баланс: " + total);
+        }
 
     }
 }
